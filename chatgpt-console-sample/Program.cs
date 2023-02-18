@@ -14,7 +14,7 @@ while (true)
         break;
     }
 
-    var openAiService = new OpenAIService("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");
+    var openAiService = new OpenAIService("<TokenHere>");
 
     var completion = await openAiService.GetCompletionAsync(input);
 
